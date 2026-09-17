@@ -1,0 +1,7 @@
+name: My First CI
+on: [push,pull_request]
+jobs:
+  say-hello:
+    runs-on:
+      steps:
+        - run: echo "CI 跑起来了！"
